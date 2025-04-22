@@ -9,6 +9,9 @@ import guru.springframework.spring6webapp.repositories.PublisherRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+/**
+ * This class is to bootstrap our h2 database with some data
+ */
 @Component
 public class BootstrapData implements CommandLineRunner {
 
